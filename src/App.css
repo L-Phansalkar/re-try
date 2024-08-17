@@ -1,29 +1,57 @@
-/* .App {
-  text-align: center;
+/* *{
+  background-color: #CCCCFF;
 } */
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-
-
-.App-header {
+.App {
   background-image: url("headshot.jpeg");
-  min-height: 100vh;
+  background-size: cover;
+  text-align: center;
+  background-size: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
 }
 
-.text{
+a:link, a:visited {
+  /* background-color: #0f15c7; */
+  background-color: rgb(18, 255, 34);
+  color:#0f15c7;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #0f15c7;
+  color: rgb(18, 255, 34);
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  /* background-color: #0f15c7; */
+}
+
+.topstuff{
   background-color: #CCCCFF;
   margin-top: 2%;
   align-self: flex-start;
-  text-align: center;
+  text-align: center; 
 }
 
+.content{
+  color: rgb(0, 0, 0);
+ border: thick double  #CCCCFF;
+  background-color: #C1E1C1;
+  /* width: 50%; */
+margin-left: 2.5%;
+margin-right: 2.5%;
+margin-bottom: 10%;
+min-width: 400px;
+}
+
+.link{
+    text-decoration-line: underline;
+    text-decoration-color: green;
+}
 
