@@ -9,9 +9,6 @@ function App() {
         <h2>
           L Phansalkar (they/them)
         </h2>
-        <h3>
-          Technical Support Engineer and Professional Speaker
-        </h3>
         </div>
       </header>
 <div className="content">
