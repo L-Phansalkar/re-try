@@ -14,18 +14,33 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./headshot.jpeg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
+.text{
+  background-color: #CCCCFF;
+  margin-top: 2%;
+  align-self: flex-start;
+}
+
+h1, h2 {
+  color: black;
+}
+
+h2{
+  align-self: flex-start;
+}
+
+
 .App-link {
-  color: #61dafb;
+  background-color: #CCCCFF;
+  color: #17cf55;
 }
 
 @keyframes App-logo-spin {
