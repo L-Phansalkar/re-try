@@ -17,7 +17,7 @@ function App() {
 <div className="content">
   <h2 className="link">Links</h2>
   <p></p>
-  <a href="https://www.linkedin.com/events/outintechpride-alltogethernow7202049812949549056/theater/" target="_blank">download my <b>resume</b></a>
+  <a href="/" target="_blank">download my <b>resume</b></a>
   <p></p>
   
   <p></p>
@@ -37,7 +37,7 @@ function App() {
   <p></p>
   <p></p>
   <p></p>
-  lorem ipsuem
+
   <p></p>
 
 </div>
