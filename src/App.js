@@ -17,7 +17,7 @@ function App() {
 <div className="content">
   <h2 className="link">Links</h2>
   <p></p>
-  <a href="/" >download my <b>resume</b></a>
+  <a href="/LPR.pdf" download="PhansalkarResume24">download my <b>resume</b></a>
   <p></p>
   
   <p></p>
